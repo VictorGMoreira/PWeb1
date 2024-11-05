@@ -1,64 +1,46 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-\f0\fs24 \cf0 /* Reseta algumas propriedades padr\'f5es */\
-* \{\
-    margin: 0;\
-    padding: 0;\
-    box-sizing: border-box;\
-\}\
-\
-body \{\
-    font-family: Arial, sans-serif;\
-    line-height: 1.6;\
-\}\
-\
-header \{\
-    background-color: #4CAF50;\
-    color: white;\
-    padding: 20px;\
-    text-align: center;\
-\}\
-\
-.container \{\
-    display: flex;\
-    justify-content: space-between;\
-    margin: 20px;\
-\}\
-\
-.coluna-esquerda,\
-.coluna-central,\
-.coluna-direita \{\
-    width: 30%;\
-    padding: 20px;\
-    background-color: #f4f4f4;\
-    border-radius: 8px;\
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\
-\}\
-\
-.coluna-esquerda \{\
-    background-color: #e0f7fa;\
-\}\
-\
-.coluna-central \{\
-    background-color: #fff3e0;\
-\}\
-\
-.coluna-direita \{\
-    background-color: #e8f5e9;\
-\}\
-\
-footer \{\
-    background-color: #4CAF50;\
-    color: white;\
-    text-align: center;\
-    padding: 10px;\
-    position: fixed;\
-    bottom: 0;\
-    width: 100%;\
-\}\
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 960px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.coluna {
+    width: 290px;
+    background-color: #ddd;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.coluna h2 {
+    margin-bottom: 10px;
+}
+
+.coluna p {
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Quando a tela for pequena, as colunas se empilham */
+        padding: 20px;
+    }
+
+    .coluna {
+        width: 100%; /* Cada coluna ocupa 100% da largura em telas pequenas */
+        margin: 10px 0; /* Distância entre as colunas */
+    }
 }
