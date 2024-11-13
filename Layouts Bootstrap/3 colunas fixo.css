@@ -1,0 +1,47 @@
+.container {
+  padding: 15px;
+} 
+
+/* Estilo para as colunas com espaçamento entre elas */
+.row > .col-md-4 {
+  margin-bottom: 30px; /* Espaçamento entre as linhas */
+  margin-right: 15px; /* Espaçamento entre as colunas */
+} 
+
+/* Ajustando a margem para garantir que a última coluna não tenha margem à direita */
+.row > .col-md-4:last-child {
+  margin-right: 0;
+} 
+
+/* Estilo para a primeira coluna com cor de fundo azul */
+.coluna-1 {
+  background-color: #3498db; /* Azul vibrante */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px;
+  border: 1px solid #2980b9; /* Cor de borda mais escura */
+} 
+
+/* Estilo para a segunda coluna com cor de fundo laranja */
+.coluna-2 {
+  background-color: #e67e22; /* Laranja vibrante */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px;
+  border: 1px solid #d35400; /* Cor de borda mais escura */
+} 
+
+/* Estilo para a terceira coluna com cor de fundo verde */
+.coluna-3 {
+  background-color: #2ecc71; /* Verde vibrante */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px;
+  border: 1px solid #27ae60; /* Cor de borda mais escura */
+} 
+
+/* Personalizando o conteúdo para garantir boas margens e visualização */
+h2 {
+  color: #fff; /* Título em branco para maior contraste */
+} 
+
+p {
+  color: #fff; /* Texto em branco para maior contraste */
+}
