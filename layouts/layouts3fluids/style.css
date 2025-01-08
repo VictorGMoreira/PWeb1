@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffb6c1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as colunas se movam para a linha abaixo */
+    padding: 5%;
+}
+
+.coluna {
+    padding: 2%;
+    background-color: #ADD8E6;
+    margin: 1%;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .coluna {
+        flex-basis: 100%; /* As colunas se tornam 100% da largura em telas pequenas */
+    }
+}

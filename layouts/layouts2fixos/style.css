@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 1000px; /* Largura fixa para o container */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.coluna {
+    padding: 20px;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.esquerda {
+    width: 40%; /* Largura fixa para a coluna esquerda */
+}
+
+.direita {
+    width: 40%; /* Largura fixa para a coluna direita */
+}
