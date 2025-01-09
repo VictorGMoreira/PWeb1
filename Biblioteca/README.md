@@ -1,8 +1,11 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Readme}
+## Criar uma API que realize funções CRUD em um BD de uma livraria com os seguintes requisitos:
+• Cada objeto livro deve ter, pelo menos, as propriedades id, titulo, autor, editora, ano, quant, preço\
+• Implementar as operações CRUD básicas\
+• Implementar uma operação para buscar os livros de uma determinada editora\
+• Implementar operação para buscar o livro que o título possui uma palavra chave específica\
+• Implementar operação para buscar os livros acima de um determinado preço\
+• Implementar operação para buscar os livros abaixo de um determinado preço\
+• Implementar operação para buscar os livros mais\
+• Implementar operação para buscar os livros mais antigos\
+• Implementar operação para buscar os livros sem estoque\
+• Em caso de acesso a um endpoint inexistente deve ser exibido o erro 404
